@@ -27,9 +27,9 @@
         element = $(this);
 
         var defaults = $.extend({
-            start: '1362139200',
-            end: '1388461320',
-            now: '1387461319',
+            start: '1439596800',
+            end: '1502064000',
+            now: '1455293659',
             selectors: {
                 value_seconds: '.clock-seconds .val',
                 canvas_seconds: 'canvas_seconds',
@@ -60,6 +60,7 @@
 
         settings = $.extend({}, defaults, options);
 
+
         if (typeof callback == 'function') { // make sure the callback is a function
             callbackFunction = callback;        
         }
@@ -69,6 +70,7 @@
         prepareCounters();
         startCounters();                        
     };
+
 
     function responsive() {
         $(window).load(updateCircles);
@@ -263,4 +265,6 @@
             layerSeconds.draw();
         }, 1000);
     }
+
+
 })(jQuery);
