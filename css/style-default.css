@@ -1872,3 +1872,26 @@ iframe {
 .cbx-switcher-text {
     margin-left: 50px
 }
+
+
+
+
+
+
+#previouseditions img {
+    width: 100%;
+}
+
+#previouseditions figcaption {
+    padding: 30px 0 0 0;
+}
+
+#previouseditions .carousel-inner {
+    height: 400px
+}
+
+@media (max-width:1000px) {
+    #previouseditions .carousel-inner {
+	height: 100px
+    }
+}
