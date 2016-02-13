@@ -8,7 +8,7 @@ define('DS', DIRECTORY_SEPARATOR);
 // the csv file location is /php/contacts.csv
 $save_in_csv = false;
 
-$admin_email_to         = 'sabuj@codeboxr.com'; // admin email who will get the contact email alert
+$admin_email_to         = 'giulio.pasqualetti@ai-sf.it'; // admin email who will get the contact email alert
 $admin_email_to_name    = "Company Name"; // Admin Name/Company name who will get the email alert
 $admin_email_from       = 'info@themeboxr.com';  // admin email from which email address email will be sent
 $admin_email_from_name  = 'System'; //admin name from which email will be sent
