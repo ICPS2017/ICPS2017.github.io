@@ -1895,3 +1895,8 @@ iframe {
 	height: 100px
     }
 }
+
+
+#previouseditions .quote-carousel .carousel-control {
+    margin-top: 100px;	  
+}
