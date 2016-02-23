@@ -55,12 +55,12 @@ h6 {
 }
 
 a {
-    color: #03f7cb
+    color: #1c9cf4
 }
 
 a:focus,
 a:hover {
-    color: #015f4f;
+    color: #054571;
     outline: 0
 }
 
@@ -73,7 +73,7 @@ iframe {
 }
 
 .span-color {
-    color: #02ab8d
+    color: #0972ba
 }
 
 .uppercase {
@@ -130,11 +130,11 @@ iframe {
 
 .cbx-regiter-common a:hover,
 .cbx-regiter-common button:hover {
-    background: #02ab8d
+    background: #0972ba
 }
 
 ::-webkit-input-placeholder {
-    color: #03f7cb
+    color: #1c9cf4
 }
 
 #cbx-header {
@@ -155,7 +155,7 @@ iframe {
 #cbx-header .cbx-navbar {
     background: rgba(1, 95, 79, .4);
     border-bottom: none;
-    border-color: #015f4f;
+    border-color: #054571;
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 15px
@@ -173,8 +173,8 @@ iframe {
     padding-top: 10px;
     padding-bottom: 15px;
     border: 1px solid #222;
-    border-bottom-color: #02ab8d;
-    box-shadow: 0 0 4px 0 #015f4f;
+    border-bottom-color: #0972ba;
+    box-shadow: 0 0 4px 0 #054571;
     -webkit-transition: all .3 ease;
     transition: all .3s linear
 }
@@ -186,7 +186,7 @@ iframe {
 }
 
 #cbx-header .logo h2 a span {
-    color: #03f7cb
+    color: #1c9cf4
 }
 
 #cbx-header .cbx-nav {
@@ -208,7 +208,7 @@ iframe {
 
 #cbx-header .cbx-nav-right li a:active,
 #cbx-header .cbx-nav-right li a:hover {
-    color: #02ab8d
+    color: #0972ba
 }
 
 #cbx-header .cbx-header-content h4 {
@@ -255,7 +255,7 @@ iframe {
 }
 
 .cbx-map-text {
-    background: #02ab8d;
+    background: #0972ba;
     padding: 5px 10px;
     width: 250px;
     color: #fff
@@ -282,7 +282,7 @@ iframe {
     height: 45px;
     border-radius: 0;
     background: #f1f1f1;
-    border: 2px solid #02ab8d;
+    border: 2px solid #0972ba;
     -webkit-transition: all .2 ease;
     transition: all .7s linear
 }
@@ -297,7 +297,7 @@ iframe {
     height: 200px;
     border-radius: 0;
     background: #f1f1f1;
-    border: 2px solid #02ab8d;
+    border: 2px solid #0972ba;
     -webkit-transition: all .2 ease;
     transition: all .7s linear
 }
@@ -316,7 +316,7 @@ iframe {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1.7rem;
     line-height: 2.55rem;
-    background: #02ab8d;
+    background: #0972ba;
     color: #fff;
     padding: 10px 30px;
     border: 0;
@@ -326,8 +326,8 @@ iframe {
 }
 
 #cbx-contact .cbx-send-button button:hover {
-    background: #015f4f;
-    color: #03f7cb
+    background: #054571;
+    color: #1c9cf4
 }
 
 .location-bottomcontent {
@@ -370,7 +370,7 @@ iframe {
 
 .location-bottomcontent button {
     margin-top: 23px;
-    background: #015f4f;
+    background: #054571;
     border: 2px solid #222;
     border-radius: 30px;
     color: #fff;
@@ -384,8 +384,8 @@ iframe {
 .location-bottomcontent button:hover {
     outline: 0;
     background: #fff;
-    color: #02ab8d;
-    border: 2px solid #015f4f
+    color: #0972ba;
+    border: 2px solid #054571
 }
 
 .location-bottomcontent li:first-child {
@@ -401,7 +401,7 @@ iframe {
 
 #cbx-memoris .single-memoris {
     margin: 0 -15px;
-    background: #02ab8d
+    background: #0972ba
 }
 
 #cbx-memoris .single-memoris figure {
@@ -444,7 +444,7 @@ iframe {
 }
 
 #cbx-memoris .fig-content span i {
-    color: #02ab8d
+    color: #0972ba
 }
 
 #cbx-register .cbx-single-pricing {
@@ -482,7 +482,7 @@ iframe {
 }
 
 #cbx-register .cbx-recommend-pricing {
-    background: #02ab8d;
+    background: #0972ba;
     color: #f1f1f1
 }
 
@@ -491,7 +491,7 @@ iframe {
 }
 
 #cbx-register .cbx-nocommend-pricing span {
-    color: #02ab8d
+    color: #0972ba
 }
 
 #cbx-registerinner {
@@ -535,7 +535,7 @@ iframe {
 }
 
 #cbx-registerinner .cbx-selectpicker {
-    color: #03f7cb;
+    color: #1c9cf4;
     height: 45px;
     width: 100%;
     background: rgba(119, 119, 119, .7);
@@ -556,7 +556,7 @@ iframe {
 
 #cbx-registerinner .cbx-regiter-button button {
     background: #f1f1f1;
-    color: #02ab8d;
+    color: #0972ba;
     -webkit-transition: all .2 ease;
     transition: all .5s linear
 }
@@ -589,7 +589,7 @@ iframe {
 .cbx-schedule .cbx-tab .nav-pills>li.active>a:focus,
 .cbx-schedule .cbx-tab .nav-pills>li.active>a:hover {
     background-color: #f1f1f1;
-    color: #02ab8d;
+    color: #0972ba;
     border-radius: 0
 }
 
@@ -609,7 +609,7 @@ iframe {
 }
 
 .cbx-schedule .cbx-tab ul {
-    background: #02ab8d
+    background: #0972ba
 }
 
 .cbx-schedule .cbx-tab .cbx-tab-content:active,
@@ -636,7 +636,7 @@ iframe {
 }
 
 .cbx-schedule .cbx-single-tab span i {
-    color: #02ab8d;
+    color: #0972ba;
     padding: 0 2px
 }
 
@@ -667,7 +667,7 @@ iframe {
 
 .cbx-schedule .more span {
     position: relative;
-    background: #02ab8d;
+    background: #0972ba;
     color: #f1f1f1;
     padding: 5px 25px 5px 15px;
     -webkit-transition: all .2 ease;
@@ -682,7 +682,7 @@ iframe {
 }
 
 .cbx-schedule .more span:hover {
-    background: #015f4f
+    background: #054571
 }
 
 .cbx-schedule .more span:hover i {
@@ -714,15 +714,15 @@ iframe {
 }
 
 #cbx-speakers .speaker_text ul li {
-    background: #015f4f;
+    background: #054571;
     height: 40px;
     width: 40px;
     margin-top: 20px
 }
 
 #cbx-speakers .speaker_text ul li:hover {
-    background: #03f7cb;
-    color: #015f4f
+    background: #1c9cf4;
+    color: #054571
 }
 
 #cbx-speakers .speaker_text ul li i {
@@ -773,7 +773,7 @@ iframe {
 #cbx-speakers #panel-2,
 #cbx-speakers #panel-3,
 #cbx-speakers #panel-4 {
-    background-color: #02ab8d
+    background-color: #0972ba
 }
 
 #cbx-sponsored {
@@ -813,7 +813,7 @@ iframe {
 
 #cbx-sponsored .span-light,
 #cbx-sponsored p {
-    color: #03f7cb
+    color: #1c9cf4
 }
 
 #cbx-subscriber .cbx-inner {
@@ -834,13 +834,13 @@ iframe {
 
 #cbx-subscriber .cbx-subscriber input {
     border-radius: 0;
-    border: 1px solid #02ab8d;
+    border: 1px solid #0972ba;
     background: #777;
     height: 45px
 }
 
 #cbx-subscriber .cbx-subscriber button {
-    background: #02ab8d;
+    background: #0972ba;
     color: #fff;
     border: 0;
     text-transform: uppercase;
@@ -848,8 +848,8 @@ iframe {
 }
 
 #cbx-subscriber .cbx-subscriber button:hover {
-    background: #015f4f;
-    color: #03f7cb
+    background: #054571;
+    color: #1c9cf4
 }
 
 .cbx-testimonials {
@@ -858,7 +858,7 @@ iframe {
 
 .cbx-testimonials .cbx-single-people small,
 .cbx-testimonials i:hover {
-    color: #02ab8d
+    color: #0972ba
 }
 
 .cbx-testimonials .quote-carousel {
@@ -915,7 +915,7 @@ iframe {
     width: 62px;
     height: 62px;
     border-radius: 100px;
-    border-color: #02ab8d;
+    border-color: #0972ba;
     opacity: 1;
     overflow: hidden
 }
@@ -934,7 +934,7 @@ iframe {
     font-family: Fontawesome;
     float: left;
     margin-right: 10px;
-    color: #02ab8d
+    color: #0972ba
 }
 
 #cbx-singlespeaker .sp-title h3,
@@ -946,12 +946,12 @@ iframe {
 }
 
 #cbx-travelinfo {
-    background: #015f4f;
+    background: #054571;
     padding-bottom: 90px
 }
 
 #cbx-travelinfo .cbx-heading span {
-    color: #03f7cb
+    color: #1c9cf4
 }
 
 #cbx-travelinfo .cbx-heading h2,
@@ -990,7 +990,7 @@ iframe {
 }
 
 #cbx-travelinfo .single-hotleinfo h3 i {
-    color: #03f7cb
+    color: #1c9cf4
 }
 
 #cbx-travelinfo .single-hotleinfo p {
@@ -1002,7 +1002,7 @@ iframe {
 }
 
 #cbx-travelinfo .single-hotleinfo p span:hover {
-    color: #03f7cb!important
+    color: #1c9cf4!important
 }
 
 #cbx-venueinner {
@@ -1019,7 +1019,7 @@ iframe {
 }
 
 #cbx-venueinner #cbx-modal-body {
-    background: #015f4f
+    background: #054571
 }
 
 #cbx-venueinner #cbx-modal-body p {
@@ -1032,7 +1032,7 @@ iframe {
 }
 
 #cbx-venueinner .cbx-venue-content a {
-    color: #03f7cb;
+    color: #1c9cf4;
     -webkit-transition: all .2 ease;
     transition: all .9s linear
 }
@@ -1093,7 +1093,7 @@ iframe {
 
 .venue-bottomcontent button {
     margin-top: 23px;
-    background: #015f4f;
+    background: #054571;
     border: 2px solid #222;
     border-radius: 30px;
     color: #fff;
@@ -1107,8 +1107,8 @@ iframe {
 .venue-bottomcontent button:hover {
     outline: 0;
     background: #fff;
-    color: #02ab8d;
-    border: 2px solid #015f4f
+    color: #0972ba;
+    border: 2px solid #054571
 }
 
 .venue-bottomcontent li:first-child {
@@ -1158,7 +1158,7 @@ iframe {
 }
 
 #cbx-singlespeaker .sp-title h2 {
-    color: #02ab8d;
+    color: #0972ba;
     margin-bottom: 10px
 }
 
@@ -1179,11 +1179,11 @@ iframe {
 
 #cbx-singlespeaker .sp-title ul li:hover {
     background: #f1f1f1;
-    color: #015f4f
+    color: #054571
 }
 
 #cbx-singlespeaker .sp-title ul li:hover i {
-    color: #015f4f
+    color: #054571
 }
 
 #cbx-singlespeaker .sp-title ul li i {
@@ -1237,7 +1237,7 @@ iframe {
 #cbx-singlespeaker .sp-details .sp-quotation i {
     font-size: 2rem;
     line-height: 3rem;
-    color: #02ab8d
+    color: #0972ba
 }
 
 #cbx-footer .cbx-top-inner .cbx-top a i,
@@ -1261,7 +1261,7 @@ iframe {
     position: absolute;
     right: 10px;
     bottom: 0;
-    background: #02ab8d
+    background: #0972ba
 }
 
 #cbx-footer .cbx-top-inner .cbx-top a p {
@@ -1269,8 +1269,8 @@ iframe {
 }
 
 #cbx-footer .cbx-top-inner .cbx-top:hover {
-    background: #015f4f;
-    color: #03f7cb
+    background: #054571;
+    color: #1c9cf4
 }
 
 #cbx-footer .footer-content {
@@ -1288,7 +1288,7 @@ iframe {
 }
 
 #cbx-footer .footer-social ul li {
-    border: 1px solid #02ab8d;
+    border: 1px solid #0972ba;
     height: 30px;
     padding-right: 7px;
     padding-top: 3px;
@@ -1296,7 +1296,7 @@ iframe {
 }
 
 #cbx-footer .footer-social ul li:hover {
-    background: #02ab8d;
+    background: #0972ba;
     color: #fff
 }
 
@@ -1444,14 +1444,14 @@ iframe {
 
 .mfp-arrow-left .mfp-a,
 .mfp-arrow-left:after {
-    border-right: 17px solid #02ab8d;
+    border-right: 17px solid #0972ba;
     margin-left: 31px
 }
 
 .mfp-arrow-left .mfp-b,
 .mfp-arrow-left:before {
     margin-left: 25px;
-    border-right: 27px solid #03f7cb
+    border-right: 27px solid #1c9cf4
 }
 
 .mfp-arrow-right {
@@ -1460,18 +1460,18 @@ iframe {
 
 .mfp-arrow-right .mfp-a,
 .mfp-arrow-right:after {
-    border-left: 17px solid #02ab8d;
+    border-left: 17px solid #0972ba;
     margin-left: 39px
 }
 
 .mfp-arrow-right .mfp-b,
 .mfp-arrow-right:before {
-    border-left: 27px solid #03f7cb
+    border-left: 27px solid #1c9cf4
 }
 
 .mfp-iframe-holder .mfp-close,
 .mfp-image-holder .mfp-close {
-    color: #02ab8d;
+    color: #0972ba;
     right: -6px;
     text-align: right;
     padding-right: 6px;
@@ -1641,7 +1641,7 @@ iframe {
     }
     #cbx-header .cbx-nav-right li a:active,
     #cbx-header .cbx-nav-right li a:hover {
-        color: #02ab8d
+        color: #0972ba
     }
 }
 
@@ -1795,7 +1795,7 @@ iframe {
 .cbx-switcher-btn {
     padding: 0 8px;
     font-weight: 700;
-    background: #02ab8d;
+    background: #0972ba;
     font-size: 25px;
     color: #fff;
     position: absolute;
@@ -1834,7 +1834,7 @@ iframe {
 }
 
 .cbx-list-default {
-    background: #02ab8d
+    background: #0972ba
 }
 
 .cbx-list-red {
