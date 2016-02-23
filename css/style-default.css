@@ -1914,3 +1914,19 @@ iframe {
     }
 }
 
+/* @media only screen and (max-width:500px) { */
+/*     .cbx-testimonials .quote-carousel .carousel-control.left { */
+/*     margin-left: +40px */
+/* } */
+
+/*  .cbx-testimonials .quote-carousel .carousel-control.right { */
+/*     margin-right: +40px */
+/* } */
+
+/* } */
+
+@media only screen and (max-width:700px) {
+    #organizers .right .carousel-control {
+	margin-right: 40px;
+    }
+}
