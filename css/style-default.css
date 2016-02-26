@@ -1965,3 +1965,12 @@ iframe {
     }
 }
 
+#owncloud {
+    text-align:center;
+    background-color:#054571;
+    width:100%;
+}
+
+#owncloud p {
+    color:#fff;
+}
