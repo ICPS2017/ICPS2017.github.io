@@ -64,13 +64,24 @@
     <!-- <\!-- <link  id="cbx-style" rel="stylesheet" href="css/style-default.min.css" media="all" /> -\-> -->
 
 
-    <link rel="stylesheet" href="css/all.min.css" media="all" />
+    <!-- <link rel="stylesheet" href="css/all.min.css" media="all" /> -->
     
     <!-- MODERNIZER CSS  -->
 
 
   </head>
   <body>
+    <script>
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = 'css/all.min.css';
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+    </script>
 
     <!--[if lt IE 7]>
 	<p class="browsehappy">We are Extreamly sorry, But the browser you are using is probably from when civilization started. Which is way behind to view this site properly. Please update to a modern browser, At least a real browser. </p>
