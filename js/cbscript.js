@@ -356,7 +356,7 @@ jQuery(document).ready(function($){
         $('.lz-circular-countdown-container').final_countdown({
             now: Date.now()/1000,
 	    start: new Date(2015, 08, 15).getTime()/1000,
-            end: new Date(2017, 07, 08).getTime()/1000,
+            end: new Date(2017, 07, 07).getTime()/1000,
             selectors: {
                 value_seconds: '.lz-circular-clock-seconds .lz-circular-val',
                 canvas_seconds: 'lz-circular-canvas_seconds',
