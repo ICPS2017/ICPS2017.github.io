@@ -65,12 +65,24 @@
 
 
     <!-- <link rel="stylesheet" href="css/all.min.css" media="all" /> -->
+    <link rel="stylesheet" href="css/custom.css" media="all" />
     
     <!-- MODERNIZER CSS  -->
 
 
   </head>
   <body>
+    <!-- preload -->
+    <div style="display: none" id="hideAll">&nbsp;</div>
+    <script type="text/javascript">
+      document.getElementById("hideAll").style.display = "block";
+    </script>
+    <script>
+      window.onload = function() 
+      { document.getElementById("hideAll").style.display = "none"; }
+    </script>
+    <!-- end preload -->
+    
     <script>
       var cb = function() {
         var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -449,7 +461,7 @@
                   <div class="cbx-heading">
                     <h2 class="uppercase wow fadeInUp">Previous <span class="span-color"> Editions</span></h2>
       		    <p class="wow fadeInUp">The first ICPS was organized by students of the Eötvös Loránd University, in Budapest, Hungary in the year 1986. The event had less than fifty participants, but since then, the conference has grown considerably, nowadays bringing together more than four hundred students.</p>
-      		    <p class="wow fadeInUp">Turin will host the XXXII International Conference of Physics Students. The XXXI will be in Malta and the previous editions have been in Zagreb, Croatia, and Heidelberg, Germany. Here are some pictures of the previous editions:</p>
+      		    <p class="wow fadeInUp">Turin will host the XXXII International Conference of Physics Students. The XXXI has been in Malta and the previous editions have been in Zagreb, Croatia, and Heidelberg, Germany. Here are some pictures of the previous editions:</p>
 		  </div>
                 </div> <!--//main COL-->
               </div> <!--//main row-->
@@ -459,8 +471,19 @@
                     <!-- Bottom Carousel Indicators -->
                     <!-- Carousel Slides / Quotes -->
                     <div class="carousel-inner text-center">
-                      <!-- Slide 1 -->
+		      <!-- Slide 1 -->
                       <div class="item active wow fadeInUp">
+                        <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2 icps-picture">
+			    <figure>
+      			      <img title="ICPS 2016 - Malta" src="img/memoris/memoris0.jpg" alt="ICPS 2016 - Malta"/>
+                              <figcaption> ICPS 2016 - Malta</figcaption>
+			    </figure>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Slide 1 -->
+                      <div class="item">
                         <div class="row">
                           <div class="col-sm-8 col-sm-offset-2 icps-picture">
 			    <figure>
@@ -514,6 +537,7 @@
                           </div>
                         </div>
                       </div>
+		      
 			
       			<!--  <ol class="carousel-indicators cbx-carousel-indicators"> -->
 			<!--     <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="img/testi1.png" alt=""></li> -->
