@@ -18,10 +18,10 @@ Copyright: All rights reserved by themeboxr.com
 // the csv file location is /php/contacts.csv
     $save_in_csv = false;
 
-    $admin_email_to         = 'admin@yourdomain.com'; // admin email who will get the contact email alert
-    $admin_email_to_name    = "Company Name"; // Admin Name/Company name who will get the email alert
-    $admin_email_from       = 'noreply@yourdomain.com';  // admin email from which email address email will be sent
-    $admin_email_from_name  = 'System'; //admin name from which email will be sent
+    $admin_email_to         = 'giulio.pasqualetti@ai-sf.it'; // admin email who will get the contact email alert
+    $admin_email_to_name    = "Giulio"; // Admin Name/Company name who will get the email alert
+    $admin_email_from       = 'webform@icps2017.it';  // admin email from which email address email will be sent
+    $admin_email_from_name  = 'Webform'; //admin name from which email will be sent
     $admin_send_subject     = 'Contact form alert'; //email subject what the admin will get as contact email alert
     $user_send_subject      = 'Thanks for contact, your copy'; //email subject what the user will get if the user agreed or select "copy me"
 
