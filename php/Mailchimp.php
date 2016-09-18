@@ -1,4 +1,12 @@
 <?php
+/**********************************************************************
+Theme Name: Eventz Html Theme
+Version: 1.0.0
+Author: Themeboxr Team
+Email: info@themeboxr.com
+Website: http://themeboxr.com
+Copyright: All rights reserved by themeboxr.com
+ **********************************************************************/
 
 require_once 'Mailchimp/Folders.php';
 require_once 'Mailchimp/Templates.php';

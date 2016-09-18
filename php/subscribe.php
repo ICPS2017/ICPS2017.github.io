@@ -1,6 +1,13 @@
 <?php
+/**********************************************************************
+Theme Name: Eventz Html Theme
+Version: 1.0.0
+Author: Themeboxr Team
+Email: info@themeboxr.com
+Website: http://themeboxr.com
+Copyright: All rights reserved by themeboxr.com
+ **********************************************************************/
 
-//configigure as need
 $save_in_csv   = true;
 $send_email    = false;
 $api_key       = null;
@@ -36,11 +43,12 @@ function is_already_subscribe($email)
 if ($_POST['email'])
 {
 	$email = strtolower($_POST['email']);
+
 	if ($email != null and filter_var($email, FILTER_VALIDATE_EMAIL))
 	{
 		$ajax_response = array(
 			'success' => true,
-			'message' => 'Thanks for subscribe us.',
+			'message' => 'Thanks for subscribe.',
 		);
 		if ($save_in_csv and !is_already_subscribe($email))
 		{
@@ -52,6 +60,7 @@ if ($_POST['email'])
 
 		if ($send_email && $api_key != null && $list_id != null)
 		{
+
 			require_once('Mailchimp.php');
 			$lz_mailchimp = new Mailchimp($api_key);
 			try
@@ -59,7 +68,7 @@ if ($_POST['email'])
 				$subscriber = $lz_mailchimp->lists->subscribe($list_id, array('email' => htmlentities($_POST['email'])));
 				if (empty($subscriber['euid']) || empty($subscriber['leid']))
 				{
-					throw new Exception('Subscribe is not available now.');
+					throw new Exception('Subscription is not available now.');
 				}
 			}
 			catch (Exception $Exp)
