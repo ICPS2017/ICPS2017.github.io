@@ -1,1 +1,3 @@
 #cbx-testimonials #quote-carousel .carousel-indicators li{width:47px;height:47px;margin:2px;cursor:pointer;border:4px solid #CCC;border-radius:47px;opacity:.4;overflow:hidden;transition:all .4s}#cbx-testimonials #quote-carousel .carousel-indicators li img{border-radius:47px}
+
+#cbx-header{background:url(../../img/header.jpg) center center no-repeat fixed;-webkit-background-size:cover;-o-background-size:cover;-moz-background-size:cover;background-size:cover;color:#fff}
