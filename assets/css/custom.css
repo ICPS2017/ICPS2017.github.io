@@ -3,3 +3,31 @@
 #cbx-header{background:url(../../img/header.jpg) center center no-repeat fixed;-webkit-background-size:cover;-o-background-size:cover;-moz-background-size:cover;background-size:cover;color:#fff}
 
 #cbx-register{background:url(../../img/register.jpg) center center no-repeat fixed;-webkit-background-size:cover;-o-background-size:cover;-moz-background-size:cover;background-size:cover;color:#fff}
+
+.cbx-inner{
+    padding: 6rem 0;
+}
+
+.cbx-heading{
+    margin-bottom: 5rem;
+}
+
+#icps div.cbx-inner{
+    padding-bottom: 0;
+}
+
+#cbx-speakers div.cbx-inner{
+    padding-bottom: 0;
+}
+
+#cbx-register div.cbx-inner{
+    padding-bottom: 0;
+}
+
+#organizers div.cbx-heading{
+    margin-bottom: 10rem;
+}
+
+#cbx-subscriber div.cbx-testi-inner{
+    padding-top: 6rem;
+}
