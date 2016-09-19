@@ -1,0 +1,96 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>{% if page.title %}ICPS2017 - {{ page.title }}{% else %}ICPS2017{% endif %}</title>
+     <meta name="description" content="{% for entry in site.data.meta %}{% if page.url == entry.id %}{% assign trovato = true %}{{ entry.description }}{% endif %}{% endfor %}{% if trovato != true %}{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.content | strip_html | strip_newlines | truncate:160 }}{% endif %}{% endif %}" />
+    <meta name="keywords" content="{% for entry in site.data.meta %}{% if page.url == entry.id %}{% assign trovato = true %}{{ entry.keywords }}{% endif %}{% endfor %}{% if trovato != true %}aisf associazione italiana studenti di fisica iaps{% if page.tags %} {{ page.tags }}{% endif %}{% endif %}" />
+    <meta name="description" content="ICPS 2017 - International Conference of Physics Students: Torino, Italy, 7-14 August 2017.">
+    <meta name="keywords"  content="icps 2017 torino physics students aisf iaps" />
+
+
+    <!-- twitter card starts from here, if you don't need remove this section -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@icps2017" />
+    <meta name="twitter:url" content="http://www.icps2017.it" />
+    <meta name="twitter:title" content="International Conference of Physics Students 2017" /> <!-- maximum 140 char -->
+    <meta name="twitter:description" content="XXXII ICPS. Torino, 7-14 August 2017" /> <!-- maximum 140 char -->
+    <meta name="twitter:image" content="/assets/img/twittercardimg/twittercard-280-150.jpg" />  <!-- when you post this page url in twitter , this image will be shown -->
+    <!-- twitter card ends from here -->
+
+    <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
+    <meta property="og:title" content="International Conference of Physics Students 2017" />
+    <meta property="og:url" content="http://www.icps2017.it" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="ICPS 2017" />
+    <!--meta property="fb:admins" content="" /-->  <!-- use this if you have  -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/img/opengraph/fbphoto.jpg" /> <!-- when you post this page url in facebook , this image will be shown -->
+    <!-- facebook open graph ends from here -->
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- icons & favicons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico" />  <!-- this icon shows in browser toolbar -->
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" /> <!-- this icon shows in browser toolbar -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json">
+
+
+    <!-- Fallback For IE 9 [ Media Query and html5 Shim] -->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <!-- BOOTSTRAP CSS -->
+    <!-- bootstrap can be added from local or cdn, bellow line is for local, btw, there is js which is added in footer -->
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css" media="all" />
+    <!-- to add bootstrap from cdn pls uncomment the bellow line -->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"-->
+
+    <!-- FONT AWESOME CSS -->
+    <!-- font awesome css library can be can be added from local or cdn, bellow line is for local -->
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.min.css" media="all" />
+    <!-- to add font awesome from cdn pls uncomment the bellow line -->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"-->
+
+
+    <!-- for animation effects animate.css -->
+    <link rel="stylesheet" href="/assets/vendor/animate/animate.css" media="all" />
+
+
+    <!-- adding maginific popup library, there is js which is added in footer -->
+
+    <link rel="stylesheet" href="/assets/vendor/maginificpopup/magnific-popup.css"  media="all" />
+
+
+    <!-- adding google fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Exo:300,600,700,900" rel="stylesheet" type="text/css">
+
+    <!-- CUSTOM  CSS  -->
+    <link id="cbx-style" rel="stylesheet" href="/assets/css/style-icps.min.css" media="all" />
+    <link id="custom-style" rel="stylesheet" href="/assets/css/custom.css" media="all" />
+
+    <!-- MODERNIZER CSS  -->
+    <script src="/assets/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
