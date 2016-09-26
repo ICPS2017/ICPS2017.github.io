@@ -38,3 +38,22 @@
   line-height: 2.8rem;
   letter-spacing: normal;
 }
+
+.p-footer-left {
+    color:white;
+    text-align:center;
+}
+
+.p-footer-right {
+    color:white;
+    text-align:center;
+}
+
+@media (min-width: 1000px) {
+    .p-footer-left {
+        padding-right:30px;
+    }
+    .p-footer-right {
+	padding-left:30px;
+    }
+}
