@@ -31,3 +31,10 @@
 #cbx-subscriber div.cbx-testi-inner{
     padding-top: 6rem;
 }
+
+.bigul li{
+    font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: normal;
+}
