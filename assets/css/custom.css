@@ -57,3 +57,17 @@
 	padding-left:30px;
     }
 }
+
+
+@media only screen and (max-width:1200px) {
+    #organizers-mediapad {
+	padding-bottom:100px;
+    }
+}
+
+
+@media only screen and (max-width:570px) {
+    #organizers-mediapad {
+	padding-bottom:200px;
+    }
+}
