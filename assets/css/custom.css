@@ -64,6 +64,10 @@
     padding-top:20px
 }
 
+.excursions-info {
+    font-size:20px;
+}
+
 @media (min-width: 1000px) {
     .p-footer-left {
         padding-right:30px;
