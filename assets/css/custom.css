@@ -60,6 +60,10 @@
     color:white;
 }
 
+.excursion-h3 {
+    padding-top:20px
+}
+
 @media (min-width: 1000px) {
     .p-footer-left {
         padding-right:30px;
