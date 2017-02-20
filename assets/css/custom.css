@@ -87,7 +87,7 @@
 
 @media only screen and (max-width:1200px) {
     #organizers-mediapad {
-	padding-bottom:260px;
+	padding-bottom:290px;
     }
     .schedule-mobile-padding {
 	padding-bottom:30px;
@@ -99,19 +99,26 @@
 /*     } */
 /* } */
 
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:744px) {
     #organizers-mediapad {
-	padding-bottom:410px;
+	padding-bottom:400px;
     }
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (max-width:564px) {
     #organizers-mediapad {
-	padding-bottom:600px;
+	padding-bottom:620px;
     }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:430px) {
     #cbx-testimonials #quote-carousel .carousel-indicators li{width:70px;height:70px;margin:2px;cursor:pointer;border:4px solid #CCC;border-radius:70px;opacity:.4;overflow:hidden;transition:all .4s}
     #cbx-testimonials #quote-carousel .carousel-indicators li img{border-radius:70px}
     #cbx-testimonials #quote-carousel .carousel-indicators .active{background:#333;border-radius:70px;border-color:#0972ba;opacity:1;overflow:hidden;height:70px;width:70px}
+    #organizers-mediapad {
+	padding-bottom:300px;
+    }
 }
+@media only screen and (max-width:415px) {
+    #organizers-mediapad {
+	padding-bottom:430px;
+    }
