@@ -1,9 +1,8 @@
 #cbx-testimonials #quote-carousel .carousel-indicators li{width:100px;height:100px;margin:2px;cursor:pointer;border:4px solid #CCC;border-radius:100px;opacity:.4;overflow:hidden;transition:all .4s}
 #cbx-testimonials #quote-carousel .carousel-indicators li img{border-radius:100px}
+#cbx-testimonials #quote-carousel .carousel-indicators .active{background:#333;border-radius:100px;border-color:#0972ba;opacity:1;overflow:hidden;height:100px;width:100px}
 
 #cbx-header{background:url(../../img/header.jpg) center center no-repeat fixed;-webkit-background-size:cover;-o-background-size:cover;-moz-background-size:cover;background-size:cover;color:#fff}
-
-#cbx-testimonials #quote-carousel .carousel-indicators .active{background:#333;border-radius:100px;border-color:#0972ba;opacity:1;overflow:hidden;height:100px;width:100px}
 
 /* #organizers-description{padding-top:12rem} */
 
@@ -110,4 +109,9 @@
     #organizers-mediapad {
 	padding-bottom:600px;
     }
+
+@media only screen and (max-width:480px) {
+    #cbx-testimonials #quote-carousel .carousel-indicators li{width:70px;height:70px;margin:2px;cursor:pointer;border:4px solid #CCC;border-radius:70px;opacity:.4;overflow:hidden;transition:all .4s}
+    #cbx-testimonials #quote-carousel .carousel-indicators li img{border-radius:70px}
+    #cbx-testimonials #quote-carousel .carousel-indicators .active{background:#333;border-radius:70px;border-color:#0972ba;opacity:1;overflow:hidden;height:70px;width:70px}
 }
