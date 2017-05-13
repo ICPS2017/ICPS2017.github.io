@@ -1,0 +1,68 @@
+<section id="news">
+  <div id="cbx-testimonials" class="cbx-testimonials news-class">
+    <div class="cbx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="cbx-heading">
+              <h2 class="uppercase wow fadeInUp" data-wow-delay=".1s">
+                <span class="title">Latest News</span>
+              </h2>
+            </div>
+          </div> <!--//main COL-->
+        </div> <!--//main row-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide" data-ride="carousel" id="news-carousel" data-interval="false">
+	      
+              <!-- Carousel Slides / Quotes -->
+              <div class="carousel-inner text-center" id="news-description">
+
+                <!-- Quote 1 -->
+		{% assign post_count = 0 %}
+		{% for post in site.categories['blog'] %}
+		{% assign post_count = post_count | plus:1 %}
+		{% if post_count < 6 %}
+		{% assign post = site.posts.first %}
+                {% assign content = post.summary %}
+                <div class="item {% if post_count==1 %}active{% endif %}">
+                  <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                      <div class="cbx-single-people">
+			<h3>{{ post.title }}</h3>
+			<small class="uppercase span-color">{{ post.date | date: '%d %b %Y' }}</small>
+                        <p>
+                          {{ content }}
+                        </p>
+			<div class="mybutton" style="margin-top:2rem;margin-bottom:2rem"><a href="{{ root_url }}{{ post.url }}">more</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+		{% endif %}
+		{% endfor %}
+	      </div>
+	    </div>
+	    <!-- <\!-- Bottom Carousel Indicators -\-> -->
+	    <!-- <div id="news-mediapad"> -->
+	    <!--   <ol class="carousel-indicators cbx-carousel-indicators"> -->
+	    <!-- 	{% assign post_count = 0 %} -->
+	    <!-- 	{% for post in site.categories['blog'] %} -->
+	    <!-- 	{% if post_count < 6 %} -->
+            <!--     <li {% if post_count==1 %}class="active"{% endif%} data-target="#news-carousel" data-slide-to="{{ post_count }}"><i class="fa fa-circle"></i> -->
+            <!--     </li> -->
+	    <!-- 	{% endif %} -->
+	    <!-- 	{% assign post_count = post_count | plus:1 %} -->
+	    <!-- 	{% endfor %} -->
+            <!--   </ol> -->
+	    <!-- </div> -->
+            <!-- Carousel Buttons Next/Prev -->
+            <a data-slide="prev" href="#news-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+            <a data-slide="next" href="#news-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+
+          </div>
+        </div>
+      </div> <!--//container-->
+    </div> <!--//cbx-inner-->
+  </div>
+</section> <!--ORGANIZERS END-->

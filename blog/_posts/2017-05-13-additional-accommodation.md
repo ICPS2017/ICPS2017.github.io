@@ -2,6 +2,7 @@
 layout: default
 title: Additional Accommodation
 permalink: /additional-accommodation
+summary: " If you need additional accommodation, either because you plan to stay in Torino a few extra days, or because you are coming with a relative, some suggestions for hostels or hotels are now available."
 ---
 
 <div id="cbx-travelinfo" class="cbx-travelinfo">

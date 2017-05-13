@@ -109,7 +109,7 @@
     #organizers-mediapad {
 	padding-bottom:620px;
     }
-
+}
 @media only screen and (max-width:430px) {
     #cbx-testimonials #quote-carousel .carousel-indicators li{width:70px;height:70px;margin:2px;cursor:pointer;border:4px solid #CCC;border-radius:70px;opacity:.4;overflow:hidden;transition:all .4s}
     #cbx-testimonials #quote-carousel .carousel-indicators li img{border-radius:70px}
@@ -122,3 +122,36 @@
     #organizers-mediapad {
 	padding-bottom:430px;
     }
+}
+
+
+.news-class .carousel-indicators .active {background-color:#333; border:1px solid #333}
+.news-class .carousel-indicators li {border:1px solid #333}
+    
+#cbx-testimonials #news-carousel .carousel-indicators li{width:100px;height:100px;margin:2px;cursor:pointer;border:4px solid #CCC;border-radius:100px;opacity:.4;overflow:hidden;transition:all .4s}
+#cbx-testimonials #news-carousel .carousel-indicators li img{border-radius:100px}
+#cbx-testimonials #news-carousel .carousel-indicators .active{background:#333;border-radius:100px;border-color:#0972ba;opacity:1;overflow:hidden;height:100px;width:100px}
+
+#news-mediapad {
+	padding-bottom:150px;
+    }
+.news-class .carousel-control {
+    background-image:none;
+    color:#333;
+    opacity:0.9;
+    padding: 10px;
+}
+
+.mybutton a {
+    background: #0972ba;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-transition: all .2 ease;
+    transition: all .3s linear;
+    font-size: 1.7rem;
+    font-style: normal;
+    line-height: 2.8rem;
+}
+
+

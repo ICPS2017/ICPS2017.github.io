@@ -27,3 +27,5 @@ email: giulio.pasqualetti@ai-sf.it
 # Build settings
 markdown: kramdown
 theme: minima
+
+permalink: /:title
