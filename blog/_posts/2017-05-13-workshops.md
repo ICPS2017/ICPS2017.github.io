@@ -2,7 +2,7 @@
 layout: post
 title:  "Workshops"
 permalink: /workshops
-summary: "Some information about the workshops are now available."
+summary: "Explore the spectrum of technical workshops at ICPS"
 ---
 
 A number of workshops will take place in the afternoon of Thursday,
@@ -125,24 +125,24 @@ would appreciate hands-on demonstrators for this session. Please email
 href="mailto:giulio.pasqualetti@ai-sf.it">Giulio</a>
 to express interest in volunteering.
 
----
+<!-- --- -->
 
-### Scientific Publishing from an Editor’s Point of View
+<!-- ### Scientific Publishing from an Editor’s Point of View -->
 
-*By Andrea Taroni – Chief Editor, Nature Physics*
+<!-- *By Andrea Taroni – Chief Editor, Nature Physics* -->
 
-Sharing scientific results is an important and challenging part of a
-physicist’s work. In this session, Dr. Taroni will share his
-experience in scientific publishing as part of one of the largest
-scientific publishing companies in our field.
+<!-- Sharing scientific results is an important and challenging part of a -->
+<!-- physicist’s work. In this session, Dr. Taroni will share his -->
+<!-- experience in scientific publishing as part of one of the largest -->
+<!-- scientific publishing companies in our field. -->
 
-What are the elements that a high-quality journal looks for in
-submitted articles? Quality is certainly the main criterion, but it is
-also important to explain the results clearly, keeping in mind what is
-the expected audience.
+<!-- What are the elements that a high-quality journal looks for in -->
+<!-- submitted articles? Quality is certainly the main criterion, but it is -->
+<!-- also important to explain the results clearly, keeping in mind what is -->
+<!-- the expected audience. -->
 
-Dr. Taroni will illustrate good practices for the submission of
-scientific articles, also sharing his personal views on the editorial
-process. The talk will be followed by a Q&A session open to ICPS
-participants and researchers from the University of Turin and the
-Polytechnic of Turin.
+<!-- Dr. Taroni will illustrate good practices for the submission of -->
+<!-- scientific articles, also sharing his personal views on the editorial -->
+<!-- process. The talk will be followed by a Q&A session open to ICPS -->
+<!-- participants and researchers from the University of Turin and the -->
+<!-- Polytechnic of Turin. -->
