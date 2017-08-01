@@ -127,6 +127,25 @@ to express interest in volunteering.
 
 ---
 
+### A Glimpse of Data Science Applications with AizoOn
+
+Why should a physicist be interested in data science? On the one hand,
+physics and data science are longtime partners: statistics, data
+visualization and sometimes also machine learning are used to
+understand the results of every scientific experiment, from laboratory
+classes during undergraduate education to experiments at CERN. The
+more complex and bigger the experiment, the more challenging and
+intriguing it becomes to mine the results and discover patterns.  On
+the other hand, physicists have the mathematical knowledge and
+scientific mindset which allows to find solutions to the complex
+problems that industries face in order to advance their business. In
+this workshop the AizoOn data science team will present several
+practical cases they worked on and you will be able to get a taste of
+the process that translates a business problem into a Data Science
+one.
+
+---
+
 ### Scientific Publishing from an Editor’s Point of View
 
 *By Andrea Taroni – Chief Editor, Nature Physics*
