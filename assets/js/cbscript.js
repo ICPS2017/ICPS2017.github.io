@@ -321,12 +321,14 @@ jQuery(document).ready(function($){
     var countdown_year  = cbxcountdown.data('year');
     var countdown_month = cbxcountdown.data('month');
     var countdown_day   = cbxcountdown.data('day');
+    var countdown_hours   = cbxcountdown.data('hours');
+    var countdown_minutes   = cbxcountdown.data('minutes');
 
     // -------------------------------------------------------------
     if ( $('.lz-circular-countdown-container').length ) {
         $('.lz-circular-countdown-container').final_countdown({
             now: Date.now()/1000,
-            end: new Date(countdown_year, countdown_month, countdown_day).getTime()/1000,
+            end: new Date(countdown_year, countdown_month, countdown_day, countdown_hours, countdown_minutes).getTime()/1000,
             selectors: {
                 value_seconds: '.lz-circular-clock-seconds .lz-circular-val',
                 canvas_seconds: 'lz-circular-canvas_seconds',
