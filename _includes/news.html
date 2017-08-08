@@ -34,7 +34,7 @@
                         <p>
                           {{ content }}
                         </p>
-			<div class="mybutton" style="margin-top:2rem;margin-bottom:2rem"><a href="{{ root_url }}{{ post.url }}">{% if post.button %}{{ post.button }}{% else %}more{% endif %}</a></div>
+			{% if post.nobutton %}<div style="padding-bottom:2.8em"></div>{% else %}<div class="mybutton" style="margin-top:2rem;margin-bottom:2rem"><a href="{{ root_url }}{{ post.url }}">{% if post.button %}{{ post.button }}{% else %}more{% endif %}</a></div>{% endif %}
                       </div>
                     </div>
                   </div>
