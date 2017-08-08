@@ -38,6 +38,7 @@
                       </div>
                     </div>
                   </div>
+		  News {{ post_count }} of {% assign t_post_count = 0 %} {% for c_post in site.categories['blog'] %} {% assign t_post_count = t_post_count | plus:1 %} {% endfor %} {{ t_post_count }}
                 </div>
 		{% endif %}
 		{% endfor %}
