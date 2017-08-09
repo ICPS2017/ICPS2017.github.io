@@ -2,8 +2,8 @@
 layout: post
 title:  "Nations Party"
 permalink: /nationsparty
-date: 2017-08-08 17:45
-summary: "Stay up to date on the available kitchens and important updates"
+date: 2017-08-09 18:16
+summary: "A provisory kitchen's plan is now available"
 ---
 
 <i class="fa fa-clock-o"></i> Thu 10 Aug starting from 9pm
@@ -24,3 +24,5 @@ Committee.
 
 ---
 *Ten kitchens are available starting from 5pm. Book your kitchen in room B3!*
+
+<div class="mybutton" style="margin-top:2rem;margin-bottom:4rem"><a href="/files/ICPS2017_nations_kitchen_schedule.pdf">Kitchen's schedule</a></div>
