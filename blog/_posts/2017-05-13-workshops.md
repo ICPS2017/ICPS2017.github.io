@@ -125,6 +125,8 @@ would appreciate hands-on demonstrators for this session. Please email
 href="mailto:giulio.pasqualetti@ai-sf.it">Giulio</a>
 to express interest in volunteering.
 
+<b>You can download the <a href="/files/unix-slides.pdf">slides</a>, the <a href="/files/unix-challenge.tar.gz">challenge problems</a> and <a href="/files/unix-challenge-solutions.tar.gz">their solutions</a>.</b>
+
 ---
 
 ### A Glimpse of Data Science Applications with AizoOn
