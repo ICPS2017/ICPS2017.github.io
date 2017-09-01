@@ -59,6 +59,8 @@ During this web workshop, we will discuss:
 In order to take part in this workshop, please register at <a
 href="https://www.comsol.it/events/web-meeting/Web-workshop-COMSOL-International-Conference-of-Physics-Students-2017-31081">this page</a>.
 
+<b>You can download the slides <a href="/files/ICPS__COMSOL_Intro.pdf">here</a> and <a href="/files/ICPS__COMSOL_RF.pdf">here</a>.</b>
+
 ---
 
 ### Arduino Microcontrollers Workshop
